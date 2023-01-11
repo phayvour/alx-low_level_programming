@@ -10,14 +10,14 @@
  *
  * Return: returns 0 on success
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int value, c;
 
 	c = 0;
 	if (argc != 2)
 	{
-		puts("Error");
+		printf("Error\n");
 		return (1);
 	}
 	value = atoi(argv[1]);
