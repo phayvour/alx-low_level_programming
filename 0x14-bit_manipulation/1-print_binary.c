@@ -13,7 +13,7 @@ unsigned long int _power(unsigned int base, unsigned int pow)
 	unsigned int i;
 
 	num = 1;
-	for (i = 0; i <= pow; i++)
+	for (i = 1; i <= pow; i++)
 		num *= base;
 	return (num);
 }
